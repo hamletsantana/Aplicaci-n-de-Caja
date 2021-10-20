@@ -10,16 +10,25 @@ using System.Windows.Forms;
 
 namespace Aplicación_Caja
 {
-    public partial class Inicio : Form
+    public partial class FormContainer : Form
     {
-        public Inicio()
+        public FormContainer()
         {
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            FormLogin login = new FormLogin();
+            login.MdiParent = this;
+            login.Size = login.MdiParent.Size;
+            login.Show();
+            
+        }
 
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

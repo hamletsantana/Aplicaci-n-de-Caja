@@ -16,7 +16,7 @@ namespace Aplicación_Caja
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Inicio());
+            Application.Run(new FormContainer());
         }
     }
 }
