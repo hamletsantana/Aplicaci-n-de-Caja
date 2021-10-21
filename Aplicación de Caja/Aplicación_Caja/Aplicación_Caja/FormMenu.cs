@@ -24,7 +24,11 @@ namespace Aplicación_Caja
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            FormLoginClientes loginClientes = new FormLoginClientes();
+            loginClientes.MdiParent = this.MdiParent;
+            loginClientes.StartPosition = FormStartPosition.Manual;
+            this.Close();
+            loginClientes.Show();
         }
 
         private void buttonCierre_Click(object sender, EventArgs e)
