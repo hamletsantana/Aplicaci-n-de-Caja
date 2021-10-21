@@ -21,7 +21,6 @@ namespace Aplicación_Caja
         {
             FormLogin login = new FormLogin();
             login.MdiParent = this;
-            login.Size = login.MdiParent.Size;
             login.Show();
             
         }

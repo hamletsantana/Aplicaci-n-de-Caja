@@ -30,14 +30,12 @@ namespace Aplicación_Caja
         private void InitializeComponent()
         {
             this.buttonCliente = new System.Windows.Forms.Button();
-            this.buttonEntradaFT = new System.Windows.Forms.Button();
-            this.buttonSalidaFT = new System.Windows.Forms.Button();
             this.buttonCierre = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonCliente
             // 
-            this.buttonCliente.Location = new System.Drawing.Point(296, 94);
+            this.buttonCliente.Location = new System.Drawing.Point(296, 143);
             this.buttonCliente.Name = "buttonCliente";
             this.buttonCliente.Size = new System.Drawing.Size(189, 55);
             this.buttonCliente.TabIndex = 0;
@@ -45,33 +43,15 @@ namespace Aplicación_Caja
             this.buttonCliente.UseVisualStyleBackColor = true;
             this.buttonCliente.Click += new System.EventHandler(this.button1_Click);
             // 
-            // buttonEntradaFT
-            // 
-            this.buttonEntradaFT.Location = new System.Drawing.Point(296, 155);
-            this.buttonEntradaFT.Name = "buttonEntradaFT";
-            this.buttonEntradaFT.Size = new System.Drawing.Size(189, 55);
-            this.buttonEntradaFT.TabIndex = 1;
-            this.buttonEntradaFT.Text = "Entrada de efectivo";
-            this.buttonEntradaFT.UseVisualStyleBackColor = true;
-            this.buttonEntradaFT.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // buttonSalidaFT
-            // 
-            this.buttonSalidaFT.Location = new System.Drawing.Point(296, 216);
-            this.buttonSalidaFT.Name = "buttonSalidaFT";
-            this.buttonSalidaFT.Size = new System.Drawing.Size(189, 55);
-            this.buttonSalidaFT.TabIndex = 2;
-            this.buttonSalidaFT.Text = "Salida de efectivo";
-            this.buttonSalidaFT.UseVisualStyleBackColor = true;
-            // 
             // buttonCierre
             // 
-            this.buttonCierre.Location = new System.Drawing.Point(296, 277);
+            this.buttonCierre.Location = new System.Drawing.Point(296, 204);
             this.buttonCierre.Name = "buttonCierre";
             this.buttonCierre.Size = new System.Drawing.Size(189, 55);
             this.buttonCierre.TabIndex = 3;
             this.buttonCierre.Text = "Cierre";
             this.buttonCierre.UseVisualStyleBackColor = true;
+            this.buttonCierre.Click += new System.EventHandler(this.buttonCierre_Click);
             // 
             // FormMenu
             // 
@@ -80,8 +60,6 @@ namespace Aplicación_Caja
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.buttonCierre);
-            this.Controls.Add(this.buttonSalidaFT);
-            this.Controls.Add(this.buttonEntradaFT);
             this.Controls.Add(this.buttonCliente);
             this.Name = "FormMenu";
             this.Text = "Menu";
@@ -93,8 +71,6 @@ namespace Aplicación_Caja
         #endregion
 
         private System.Windows.Forms.Button buttonCliente;
-        private System.Windows.Forms.Button buttonEntradaFT;
-        private System.Windows.Forms.Button buttonSalidaFT;
         private System.Windows.Forms.Button buttonCierre;
     }
 }

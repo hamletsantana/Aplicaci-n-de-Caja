@@ -27,7 +27,7 @@ namespace Aplicación_Caja
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void buttonCierre_Click(object sender, EventArgs e)
         {
 
         }

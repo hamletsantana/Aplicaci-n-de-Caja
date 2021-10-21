@@ -10,3 +10,15 @@ C:\Users\yjtv\Source\Repos\Aplicaci-n-de-Caja\Aplicación de Caja\Aplicación_Ca
 C:\Users\yjtv\Source\Repos\Aplicaci-n-de-Caja\Aplicación de Caja\Aplicación_Caja\Aplicación_Caja\obj\Debug\Aplicación_Caja.pdb
 C:\Users\yjtv\Source\Repos\Aplicaci-n-de-Caja\Aplicación de Caja\Aplicación_Caja\Aplicación_Caja\obj\Debug\Aplicación_Caja.FormLogin.resources
 C:\Users\yjtv\Source\Repos\Aplicaci-n-de-Caja\Aplicación de Caja\Aplicación_Caja\Aplicación_Caja\obj\Debug\Aplicación_Caja.FormContainer.resources
+C:\Users\DELL\Source\Repos\Aplicaci-n-de-Caja\Aplicación de Caja\Aplicación_Caja\Aplicación_Caja\bin\Debug\Aplicación_Caja.exe.config
+C:\Users\DELL\Source\Repos\Aplicaci-n-de-Caja\Aplicación de Caja\Aplicación_Caja\Aplicación_Caja\bin\Debug\Aplicación_Caja.exe
+C:\Users\DELL\Source\Repos\Aplicaci-n-de-Caja\Aplicación de Caja\Aplicación_Caja\Aplicación_Caja\bin\Debug\Aplicación_Caja.pdb
+C:\Users\DELL\Source\Repos\Aplicaci-n-de-Caja\Aplicación de Caja\Aplicación_Caja\Aplicación_Caja\obj\Debug\Aplicación_Caja.csproj.AssemblyReference.cache
+C:\Users\DELL\Source\Repos\Aplicaci-n-de-Caja\Aplicación de Caja\Aplicación_Caja\Aplicación_Caja\obj\Debug\Aplicación_Caja.FormContainer.resources
+C:\Users\DELL\Source\Repos\Aplicaci-n-de-Caja\Aplicación de Caja\Aplicación_Caja\Aplicación_Caja\obj\Debug\Aplicación_Caja.FormLogin.resources
+C:\Users\DELL\Source\Repos\Aplicaci-n-de-Caja\Aplicación de Caja\Aplicación_Caja\Aplicación_Caja\obj\Debug\Aplicación_Caja.FormMenu.resources
+C:\Users\DELL\Source\Repos\Aplicaci-n-de-Caja\Aplicación de Caja\Aplicación_Caja\Aplicación_Caja\obj\Debug\Aplicación_Caja.Properties.Resources.resources
+C:\Users\DELL\Source\Repos\Aplicaci-n-de-Caja\Aplicación de Caja\Aplicación_Caja\Aplicación_Caja\obj\Debug\Aplicación_Caja.csproj.GenerateResource.cache
+C:\Users\DELL\Source\Repos\Aplicaci-n-de-Caja\Aplicación de Caja\Aplicación_Caja\Aplicación_Caja\obj\Debug\Aplicación_Caja.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Source\Repos\Aplicaci-n-de-Caja\Aplicación de Caja\Aplicación_Caja\Aplicación_Caja\obj\Debug\Aplicación_Caja.exe
+C:\Users\DELL\Source\Repos\Aplicaci-n-de-Caja\Aplicación de Caja\Aplicación_Caja\Aplicación_Caja\obj\Debug\Aplicación_Caja.pdb
