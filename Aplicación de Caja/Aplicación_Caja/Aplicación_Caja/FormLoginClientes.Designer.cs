@@ -49,18 +49,18 @@ namespace Aplicación_Caja
             this.labelTituloClientes.AutoSize = true;
             this.labelTituloClientes.Font = new System.Drawing.Font("Arial Unicode MS", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTituloClientes.ForeColor = System.Drawing.Color.LimeGreen;
-            this.labelTituloClientes.Location = new System.Drawing.Point(204, 100);
+            this.labelTituloClientes.Location = new System.Drawing.Point(291, 99);
             this.labelTituloClientes.Name = "labelTituloClientes";
-            this.labelTituloClientes.Size = new System.Drawing.Size(367, 50);
+            this.labelTituloClientes.Size = new System.Drawing.Size(199, 50);
             this.labelTituloClientes.TabIndex = 19;
-            this.labelTituloClientes.Text = "VALIDAR CLIENTE";
+            this.labelTituloClientes.Text = " CLIENTE";
             // 
             // buttonLoginClient
             // 
             this.buttonLoginClient.BackColor = System.Drawing.Color.LimeGreen;
             this.buttonLoginClient.Font = new System.Drawing.Font("Arial Unicode MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonLoginClient.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonLoginClient.Location = new System.Drawing.Point(300, 259);
+            this.buttonLoginClient.Location = new System.Drawing.Point(300, 264);
             this.buttonLoginClient.Name = "buttonLoginClient";
             this.buttonLoginClient.Size = new System.Drawing.Size(194, 63);
             this.buttonLoginClient.TabIndex = 18;
