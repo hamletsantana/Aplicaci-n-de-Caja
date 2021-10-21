@@ -35,7 +35,7 @@ namespace Aplicación_Caja
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.labelPassword = new System.Windows.Forms.Label();
             this.labelUsuario = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelSucursal = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelTitulo
@@ -52,7 +52,6 @@ namespace Aplicación_Caja
             // buttonLogin
             // 
             this.buttonLogin.BackColor = System.Drawing.Color.LimeGreen;
-            this.buttonLogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonLogin.Font = new System.Drawing.Font("Arial Unicode MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonLogin.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.buttonLogin.Location = new System.Drawing.Point(212, 186);
@@ -98,22 +97,24 @@ namespace Aplicación_Caja
             this.labelUsuario.TabIndex = 7;
             this.labelUsuario.Text = "Usuario";
             // 
-            // label1
+            // labelSucursal
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(517, 329);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "label1";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.labelSucursal.AutoSize = true;
+            this.labelSucursal.Font = new System.Drawing.Font("Arial Unicode MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSucursal.ForeColor = System.Drawing.Color.Green;
+            this.labelSucursal.Location = new System.Drawing.Point(358, 319);
+            this.labelSucursal.Name = "labelSucursal";
+            this.labelSucursal.Size = new System.Drawing.Size(48, 18);
+            this.labelSucursal.TabIndex = 13;
+            this.labelSucursal.Text = "label1";
+            this.labelSucursal.Click += new System.EventHandler(this.labelSucursal_Click);
             // 
             // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(580, 362);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelSucursal);
             this.Controls.Add(this.labelTitulo);
             this.Controls.Add(this.buttonLogin);
             this.Controls.Add(this.textBox2);
@@ -136,6 +137,6 @@ namespace Aplicación_Caja
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label labelPassword;
         private System.Windows.Forms.Label labelUsuario;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelSucursal;
     }
 }

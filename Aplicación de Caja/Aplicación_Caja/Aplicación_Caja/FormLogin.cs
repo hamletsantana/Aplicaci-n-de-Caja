@@ -16,6 +16,8 @@ namespace Aplicación_Caja
         public FormLogin()
         {
             InitializeComponent();
+            string x = ConfigurationManager.AppSettings["Sucursal"]; ;
+            labelSucursal.Text = x;
         }
 
         private void buttonLogin_Click(object sender, EventArgs e)
@@ -54,9 +56,11 @@ namespace Aplicación_Caja
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        
+
+        private void labelSucursal_Click(object sender, EventArgs e)
         {
-            label1.Text = ConfigurationManager.AppSettings["Local"];
+    
         }
     }
 }
